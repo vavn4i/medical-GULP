@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2? family= PT+Serif:wght@400;700 & display=swap");
+
+@import "./_header";
+@import "./_baner";
+@import "./_rehabilitation-centers";
+@import './_price';
+@import './_consiltants';
+@import './_knowledge';
+@import './_publication';
+@import './_footer';
+
+button,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    #ffffff 2.59%,
+    #eff5fd 6.26%,
+    #f7faff 48.54%
+  );
+}
+
+@media screen and (max-width:1366) {
+.container{
+  max-width: 1200px;
+}
+  
+}

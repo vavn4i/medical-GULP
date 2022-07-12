@@ -1,0 +1,81 @@
+.knowledge {
+  margin: 0 auto;
+  &__title {
+    margin-bottom: 64px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 55px;
+    color: #2b3042;
+  }
+  &__date{
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #8188A3;
+  }
+  &-list {
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    .knowledge-card {
+      padding: 45px 33px 69px;
+      margin-right: 35px;
+      margin-bottom: 33px;
+
+       &:nth-child(5) {
+        margin-right: 0px;
+      }
+
+      &:last-child {
+        margin-right: 0px;
+      }
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      background: #d0ddff;
+      border-radius: 70px;
+      &__title {
+        margin-bottom: 38px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        color: #2b3042;
+      }
+      &__button {
+        font-size: 19px;
+        line-height: 23px;
+        letter-spacing: 0.03em;
+        color: #4b5775;
+      }
+      &__information {
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        &-icon {
+          width: 87px;
+          height: 87px;
+        }
+        &-text {
+          display: flex;
+          flex-direction: column;
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 28px;
+          letter-spacing: 0.03em;
+          color: #2b3042;
+          span {
+            font-size: 17px;
+            color: #4b5775;
+          }
+        }
+      }
+    }
+  }
+
+}

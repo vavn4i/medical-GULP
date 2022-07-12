@@ -1,0 +1,130 @@
+footer{
+    background-color: #e2eaff;   
+}
+.footer {
+  margin: 0 auto;
+  padding: 92px 0 79px;
+  display: flex;
+  background-color: #e2eaff;
+  align-items: flex-start;
+  .container {
+      display:flex;
+      margin: 0 auto;
+  }
+  &-logo {
+    margin-right: 80px;
+    padding-right: 80px;
+    border-right: 2px solid #c8d6ff;
+    &__title {
+      margin-bottom: 23px;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 23px;
+      letter-spacing: 0.03em;
+      color: #000000;
+    }
+    &__text {
+      margin-bottom: 50px;
+      font-size: 15px;
+      line-height: 25px;
+      color: #68708c;
+    }
+    &__help {
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 23px;
+      letter-spacing: 0.03em;
+      color: #000000;
+    }
+    &__contact {
+      display: flex;
+      width: 245px;
+      &-input {
+        padding: 16px 82px 16px 19px;
+        background: #ffffff;
+        box-shadow: 0px 10px 50px rgba(143, 161, 207, 0.3);
+        border-radius: 13px;
+        border: none;
+        &::placeholder {
+          font-size: 18px;
+          line-height: 23px;
+          color: #656374;
+        }
+      }
+      &-button {
+        padding: 16px;
+        background: linear-gradient(139.29deg, #5a89ff 6.28%, #366aeb 57.2%);
+        box-shadow: 5px 10px 50px rgba(89, 109, 182, 0.7);
+        border-radius: 13px;
+      }
+    }
+  }
+  &-drugs {
+    margin-right: 80px;
+    padding-right: 80px;
+    border-right: 2px solid #c8d6ff;
+    &__item {
+      &:nth-child(1) {
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 41px;
+        color: #2b3042;
+      }
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      font-size: 15px;
+      line-height: 25px;
+      color: #68708c;
+    }
+  }
+  &-alcohol {
+    margin-right: 80px;
+    padding-right: 80px;
+    border-right: 2px solid #c8d6ff;
+    &__item {
+      &:nth-child(1) {
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 41px;
+        color: #2b3042;
+      }
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      font-size: 15px;
+      line-height: 25px;
+      color: #68708c;
+    }
+  }
+  &-contact{
+    
+    &__item {
+        &:nth-child(1) {
+          margin-bottom: 20px;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 41px;
+          color: #2b3042;
+        }
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+  
+        font-size: 15px;
+        line-height: 25px;
+        color: #68708c;
+      }
+  }
+}
+// .input__call{
+//     background: url(/images/phone.png);
+//     &:submit{
+
+//     }
+// }
